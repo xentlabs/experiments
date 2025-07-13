@@ -1,0 +1,31 @@
+# Python
+.Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# uv
+.uv/
+
+# Jupyter/IPython
+.ipynb_checkpoints
+.jupyter/
+jupyter_notebook_config.py
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+output/
