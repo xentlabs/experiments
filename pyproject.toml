@@ -9,3 +9,7 @@ dependencies = [
     "torch>=2.7.1",
     "transformers>=4.53.2",
 ]
+
+[project.scripts]
+knowing_the_measure = "experiments.knowing_the_measure.knowing_the_measure:run_knowing_the_measure"
+qualitative_xent = "experiments.knowing_the_measure.qualitative_xent:run_qualitative_knowing_the_measure"
